@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003343",
+  "source": "openneuro",
+  "source_id": "ds003343",
+  "title": "Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG",
+  "authors": {
+    "Christoph Schneider": {},
+    "Renaud Marquis": {},
+    "Jane Johr": {},
+    "Marina Da Silva Lopes": {},
+    "Philippe Ryvlin": {},
+    "Andrea Serino": {},
+    "Marzia De Lucia": {},
+    "Karin Diserens": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003343.v2.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
