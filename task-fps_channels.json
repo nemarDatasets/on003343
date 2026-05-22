@@ -1,0 +1,8 @@
+{
+  "software_filters": {
+    "Description": "List of software filters applied during recording. `n/a` if no software filter was applied."
+  },
+  "status_description": {
+    "Description": "Freeform text description of the channel status (e.g., reason for being marked bad)."
+  }
+}
