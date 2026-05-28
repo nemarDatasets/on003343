@@ -15,29 +15,27 @@ EEG was recorded continuously while delivering stimulation sequences consisting 
 Each stimulation lasted three seconds and consisted of one second of linear frequency ramp-up, one second of a stable frequency interval and one second of linear frequency ramp-down. The linear ramps started and ended 10 Hz below the target frequency for each stimulation type. The amplitude of the vibration was 2-3 mm. These parameters were based on Romaiguère et al. (2003) and the perception of illusory movement across all subjects was ensured in a pre-screening procedure. This setting was kept constant throughout the whole recording session. 
 Each subject underwent three blocks of 72 vibrations (36 illusion, 36 control), arranged randomly and different for each block. The same stimulus sequences were employed for each participant. Inter stimulus intervals varied between one and three seconds and were randomized within and between blocks in order to minimize stimulus onset anticipation.
 
-## NEMAR curation changes (2026-05-21)
+## NEMAR curation changes (2026-05-21, revised 2026-05-27)
 
-BIDS validator: 60 errors + 534 warnings → 0 errors + 473 warnings. Raw `.bdf` binary payloads unchanged.
+The BIDS validator went from 60 errors + 534 warnings to 0 errors + 474 warnings. None of the raw `.bdf` files were modified — every change is to a text sidecar.
 
-### `dataset_description.json`
-- Added `DatasetType: "raw"`. Why: BIDS-validator otherwise infers a derivative-rules cascade when `DatasetType` is missing alongside `GeneratedBy`, producing spurious warnings.
-- Added `GeneratedBy: [{Name: "nemar-cli", Version: "0.8.8", CodeURL: "https://github.com/nemar-org/nemar-cli"}]`. Why: records the NEMAR rehost step in the dataset's provenance chain.
-- Bumped `BIDSVersion` `1.4.1` → `1.8.0`. Why: the previous value was below the validator's recognized-version floor.
+**Dataset description (`dataset_description.json`)**
+- Added `DatasetType: "raw"` so the dataset is validated as raw data rather than a derivative.
+- Updated `BIDSVersion` from `1.4.1` to `1.11.1` (the version the current validator checks against).
+- `GeneratedBy` was left absent, exactly as the source published it — nothing was added there.
 
-### `task-fps_channels.json` (new, inheriting root sidecar)
-- Created at the dataset root to declare the two non-standard columns used by every per-recording `_channels.tsv`: `software_filters` and `status_description`. Why: every per-recording `channels.tsv` has 11 columns, including these two non-BIDS-standard fields, but none had a paired `_channels.json` sidecar — so the validator could not bind the columns to any schema and fired `TSV_ADDITIONAL_COLUMNS_MUST_DEFINE:software_filters` on every recording (59 errors). One root sidecar inherits to all recordings; the BIDS-canonical columns (`name`/`type`/`units`/`sampling_frequency`/`low_cutoff`/`high_cutoff`/`notch`/`description`/`status`) are intentionally NOT declared here so the validator's built-in schema applies to them.
+**Channel-column documentation (`task-fps_channels.json`, new, at the dataset root)**
+- Every recording's channel table has two columns BIDS does not define — `software_filters` and `status_description` — but no sidecar described them, so the validator rejected those columns on every recording. A single root-level sidecar now describes both columns and applies to all recordings at once. The standard channel-table columns are deliberately left undeclared so the validator's built-in rules apply to them.
 
-### `sub-*/ses-*/sub-*_ses-*_scans.tsv` (20 per-recording scan tables)
-- `acq_time` cells: appended `.000000` microsecond suffix to every value (e.g. `2019-01-07T13:32:40` → `2019-01-07T13:32:40.000000`), plus a trailing newline. Why: BIDS-EEG downstream tooling (`mne-bids`) requires fractional-second precision on `acq_time` (the standard `strptime` format string is `'%Y-%m-%dT%H:%M:%S.%f'`); without the suffix the loader has to repair the column on every read. Baking the suffix in removes that load-time mutation. No effect on validator findings — this purely cleans the load path. Original timestamp values otherwise unchanged.
+**Recording sidecars (`_eeg.json`, all 59 recordings)**
+- The misc-channel-count field was spelled `MiscChannelCount`; BIDS uses the all-uppercase `MISCChannelCount`. It was renamed (the value, `0`, was already correct) so the validator recognizes it.
 
-### `sub-*/ses-*/eeg/sub-*_ses-*_task-fps_run-*_eeg.json` (59 per-recording sidecars)
-- Renamed the key `MiscChannelCount` → `MISCChannelCount`. Why: the previous spelling is not BIDS-canonical (BIDS requires all-uppercase `MISC`); the validator did not recognise the misspelt key and continued to warn that `MISCChannelCount` was missing. No value change — the field stays at `0`. Closes 59 `SIDECAR_KEY_RECOMMENDED:MISCChannelCount` warnings.
+**Acquisition times (`scans.tsv`) — left exactly as published**
+- EEGDash's loader appends a `.000000` microsecond suffix to the acquisition times when it reads the files, but the published timestamps (e.g. `2019-01-07T13:32:40`) are already valid BIDS — fractional seconds are optional — so they were left unchanged rather than having the loader's suffix baked in.
 
-### Out of mechanical scope (left as-is)
+**Out of mechanical scope (left as-is)**
+- Every event table stores its `onset` and `duration` as sample numbers (e.g. `1399`, `1801`), and the matching sidecars label the unit accordingly ("samples", where 1 sample = 2 ms) rather than in seconds as BIDS expects. Simply relabeling the unit as seconds would misstate the data; converting it correctly means dividing every value by the 500 Hz sampling rate, which is a data change beyond this text-only cleanup. The mismatch was left in place and flagged here.
+- A set of "recommended but missing" equipment and study fields (software versions, instructions, head circumference, cognitive-atlas IDs, stimulus-presentation details) were left blank rather than filled with guesses. This includes `GeneratedBy`: the source does not document what tool generated the data, so it was left absent rather than invented.
 
-- 59×2 `TSV_COLUMN_TYPE_REDEFINED:onset` / `:duration` warnings remain. Cause: every per-recording `_events.json` declares `onset` with `Units: "samples (1 sample = 2ms)"` (non-canonical), while BIDS-EEG requires `Units: "s"`. The actual cell values in every `_events.tsv` `onset` column are sample indices (1399, 1801, …), not seconds, so simply rewriting the unit string would lie about the data. The proper fix is a data conversion (divide each `onset`/`duration` cell by 500 Hz and rewrite as seconds) — which is beyond mechanical sidecar curation. Left for a future curation pass.
-- 59× recommended-key warnings on `SoftwareVersions`, `Instructions`, `CogAtlasID`, `CogPOID`, `HeadCircumference`, `StimulusPresentation` remain. These are external info (study/lab/equipment details not documented inside this dataset) and inventing values is not defensible.
-
-### Note on EEGDash load-side failures (not addressed here)
-
-Independent of the BIDS-validator findings above, EEGDash currently fails to load all 59 `.bdf` recordings — both MNE-Python and pyedflib reject the BDF headers with byte-count violations. This is a binary-encoding defect in the source `.bdf` files (not a BIDS sidecar issue) and is outside the scope of this curation pass. The validator does not read the BDF binaries, so the dataset's `nemar dataset validate` output here is unaffected.
+**The recording files cannot be loaded (not a BIDS issue)**
+- Separately from the validator findings above, all 59 `.bdf` files are rejected by both MNE-Python and pyedflib because their headers violate the BDF byte-count rules. This is a defect in the source recording files, not in the BIDS sidecars, and is outside this metadata cleanup. The BIDS validator does not read the binaries, so its result is unaffected; the files would need re-encoding before the signal can be opened.
