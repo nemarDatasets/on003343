@@ -1,0 +1,15 @@
+{
+  "dataset_id": "on003343",
+  "version": "1.0.0",
+  "generated_at": "2026-07-23T01:13:24.433Z",
+  "source": null,
+  "complete": true,
+  "completeness": {
+    "files_present": 62,
+    "files_declared": 62,
+    "bytes_present": 695328306,
+    "bytes_declared": 695730168,
+    "pct_bytes": 0.9994223881348206
+  },
+  "missing": []
+}
