@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG",
+  "description": "EEG recordings from 20 healthy right-handed adults during tendon vibration of the left elbow, used to separate the neural correlates of illusory movement from those of plain sensory stimulation. Sixteen sensorimotor electrodes were recorded while biceps and triceps tendon vibration either induced an illusion of elbow extension or, in a control condition, produced vibration sensation alone.",
+  "methods_description": "EEG was recorded with a g.tec Nautilus wireless amplifier (16 electrodes, 10-10 system, 500 Hz, 0.1-100 Hz hardware bandpass, right earlobe reference). Vibrators (Vibramoov) were placed on the distal biceps and triceps tendons of the left arm. The illusion condition used 90 Hz on biceps and 50 Hz on triceps, and the control used 70 Hz on both. Each 3 s stimulation had a 1 s ramp-up, 1 s stable interval and 1 s ramp-down. Each participant completed three blocks of 72 randomized vibrations (36 illusion, 36 control), with inter-stimulus intervals of 1-3 s.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,6 +16,28 @@
     "Marzia De Lucia": {},
     "Karin Diserens": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "tendon vibration"
+    },
+    {
+      "term": "illusory movement"
+    },
+    {
+      "term": "kinesthetic illusion"
+    },
+    {
+      "term": "Proprioception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011434"
+    },
+    {
+      "term": "sensorimotor cortex"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003343.v2.0.1",
@@ -26,7 +50,7 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003343",
+      "identifier": "https://nemar.org/dataset/on003343",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -36,8 +60,7 @@
       "funder_name": "This work was supported by the Fondation CHUV, Lausanne, Switzerland; the Loterie Romande, Lausanne, Switzerland; and Techno Concept, Mane, France."
     },
     {
-      "funder_name": "Fondation CHUV",
-      "award_title": "Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG"
+      "funder_name": "Fondation CHUV"
     },
     {
       "funder_name": "Loterie Romande"
@@ -46,12 +69,12 @@
       "funder_name": "Techno Concept"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "695.3 MB (63 files)"
+    "663 MB (63 files)"
   ],
   "formats": [
     ".bdf",
@@ -61,45 +84,6 @@
     ".tsv",
     ".txt",
     ".yml"
-  ],
-  "description": "This dataset contains EEG recordings from 20 healthy participants during tendon vibration stimulation designed to elicit motor illusions. The study investigates the neural correlates of illusory movement perception versus pure sensory stimulation by comparing two vibration conditions: one inducing elbow extension illusions (biceps at 90 Hz, triceps at 50 Hz) and a control condition producing only vibration sensation (both tendons at 70 Hz). EEG was recorded from 16 electrodes covering sensorimotor cortex during three blocks of randomized stimulation sequences. This dataset is currently unpublished.",
-  "methods_description": "EEG was recorded using a g.tec Nautilus wireless system with 16 electrodes positioned over sensorimotor cortex (10-10 system: Fz, FC3, FC2, FCz, FC4, C3, C1, Cz, C2, C4, CP3, CP1, CPz, CP2, CP4) at 500 Hz sampling rate with 0.1-100 Hz bandpass filtering. Tendon vibration was delivered via wireless electromechanical vibrators (Vibramoov) placed on distal biceps and triceps tendons of the left arm. Stimulation consisted of three-second sequences with 1-second linear ramps and 1-second stable frequency intervals. Each participant completed three blocks of 72 vibrations (36 illusion, 36 control) with randomized inter-stimulus intervals (1-3 seconds).",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor illusion"
-    },
-    {
-      "term": "tendon vibration"
-    },
-    {
-      "term": "Proprioception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D011434"
-    },
-    {
-      "term": "sensorimotor cortex"
-    },
-    {
-      "term": "kinesthetic perception"
-    },
-    {
-      "term": "Somatosensory Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013003"
-    },
-    {
-      "term": "Illusions",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007088"
-    },
-    {
-      "term": "Vibration",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014732"
-    }
   ],
   "source_hash": "5f6edfaf1ead7d87086df7e6e9662e64d90f937937dc3d99fe9f43e630008aa9"
 }
