@@ -1,39 +1,39 @@
 {
-	"CapManufacturer": "g.tec",
-	"CapManufacturersModelName": "g.GAMMAsys",
-	"DeviceSerialNumber": "NB-2015.10.70",
-	"ECGChannelCount": 0,
-	"EEGChannelCount": 16,
-	"EEGGround": "FPz",
-	"EEGPlacementScheme": "10-10",
-	"EEGReference": "right ear",
-	"EMGChannelCount": 0,
-	"EOGChannelCount": 0,
-	"EpochLength": 392,
-	"HardwareFilters": {
-		"Bandpassfilter": {
-			"LowCutoff_Hz_": 0.01,
-			"HighCutoff_Hz_": 100,
-			"Roll_off": "6dB/Octave"
-		},
-		"NotchFilter": {
-			"CenterFrequency_Hz_": 50,
-			"Roll_off": "6dB/Octave"
-		}
-	},
-	"InstitutionAddress": "Rue du Bugnon 46, 1011 Lausanne, Switzerland",
-	"InstitutionName": "Centre Hospitalier Universitaire Vaudois (CHUV)",
-	"InstitutionalDepartmentName": "Laboratoire de recherche en neuroreeducation aigue (LNRA)",
-	"Manufacturer": "g.tec",
-	"ManufacturersModelName": "g.Nautilus",
-	"MiscChannelCount": 0,
-	"PowerLineFrequency": 50,
-	"RecordingDuration": 392,
-	"RecordingType": "continuous",
-	"SamplingFrequency": 500,
-	"SoftwareFilters": "n/a",
-	"SubjectArtefactDescription": "n/a",
-	"TaskDescription": "Subjects were receiving tendon co-vibration on biceps and triceps on the left elbow. Depending on chosen frequencies, participants did or did not experience illusory movement.",
-	"TaskName": "fps",
-	"TriggerChannelCount": 4
+  "CapManufacturer": "g.tec",
+  "CapManufacturersModelName": "g.GAMMAsys",
+  "DeviceSerialNumber": "NB-2015.10.70",
+  "ECGChannelCount": 0,
+  "EEGChannelCount": 16,
+  "EEGGround": "FPz",
+  "EEGPlacementScheme": "10-10",
+  "EEGReference": "right ear",
+  "EMGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "EpochLength": 392,
+  "HardwareFilters": {
+    "Bandpassfilter": {
+      "LowCutoff_Hz_": 0.01,
+      "HighCutoff_Hz_": 100,
+      "Roll_off": "6dB/Octave"
+    },
+    "NotchFilter": {
+      "CenterFrequency_Hz_": 50,
+      "Roll_off": "6dB/Octave"
+    }
+  },
+  "InstitutionAddress": "Rue du Bugnon 46, 1011 Lausanne, Switzerland",
+  "InstitutionName": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+  "InstitutionalDepartmentName": "Laboratoire de recherche en neuroreeducation aigue (LNRA)",
+  "Manufacturer": "g.tec",
+  "ManufacturersModelName": "g.Nautilus",
+  "PowerLineFrequency": 50,
+  "RecordingDuration": 392,
+  "RecordingType": "continuous",
+  "SamplingFrequency": 500,
+  "SoftwareFilters": "n/a",
+  "SubjectArtefactDescription": "n/a",
+  "TaskDescription": "Subjects were receiving tendon co-vibration on biceps and triceps on the left elbow. Depending on chosen frequencies, participants did or did not experience illusory movement.",
+  "TaskName": "fps",
+  "TriggerChannelCount": 4,
+  "MISCChannelCount": 0
 }
