@@ -1,23 +1,35 @@
 {
-	"onset" : {
-		"LongName" : "Onset sample",
-		"Units" : "samples (1 sample = 2ms)"
-		},
-	"duration" : {
-		"LongName" : "Duration of hardware trigger signal"
-		},
-	"event_value" : {
-		"LongName" : "Hardware trigger value",
-		"Units" : "n/a",
-		"Levels" : {
-			"82" : "illusion start",
-			"90" : "illusion peak",
-			"62" : "sham start",
-			"70" : "sham peak"
-			}
-		},
-	"event_name" : {
-		"LongName" : "Onscreen stimulus",
-		"Description" : "Description of the corresponding onscreen stimulus"
-		}
+  "onset": {
+    "LongName": "Onset sample",
+    "Units": "samples (1 sample = 2ms)"
+  },
+  "duration": {
+    "LongName": "Duration of hardware trigger signal"
+  },
+  "event_value": {
+    "LongName": "Hardware trigger value",
+    "Units": "n/a",
+    "Levels": {
+      "82": "illusion start",
+      "90": "illusion peak",
+      "62": "sham start",
+      "70": "sham peak"
+    }
+  },
+  "event_name": {
+    "LongName": "Onscreen stimulus",
+    "Description": "Description of the corresponding onscreen stimulus"
+  },
+  "trial_type": {
+    "Description": "Original event_name, or BAD_Fz_header_overlap for unrecoverable source bytes."
+  },
+  "channel": {
+    "Description": "Channel affected by the BAD interval; n/a for original events."
+  },
+  "integrity_note": {
+    "Description": "Data integrity explanation; no lost samples are synthesized."
+  },
+  "integrity_interval_units": {
+    "Description": "Units for the added BAD integrity interval only: s (seconds). Original trigger onset values and their original sample-unit metadata are preserved; they are not silently reinterpreted or corrected by this repair."
+  }
 }

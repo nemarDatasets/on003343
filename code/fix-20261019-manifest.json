@@ -1,0 +1,3601 @@
+[
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 397.0,
+    "recoverable_s": 397.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11914608--692c7f78fd5198d1121f26e21d755b93.bdf",
+    "size": 11915376,
+    "sha256": "88c97ae34b8dc972b29ef21bb8b92dbc5eefffa1b66695a570d6410f15a5fd7c",
+    "annex_key": "SHA256E-s11915376--88c97ae34b8dc972b29ef21bb8b92dbc5eefffa1b66695a570d6410f15a5fd7c.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 198500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 397.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 198500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 397.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 404.0,
+    "recoverable_s": 404.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12124608--f7d1b534e222fdf17d78b8a3b1d16a28.bdf",
+    "size": 12125376,
+    "sha256": "2f4c4a975b49269f5fcad4fd1595fe5c60bfa2cd291ca78942f3919607953009",
+    "annex_key": "SHA256E-s12125376--2f4c4a975b49269f5fcad4fd1595fe5c60bfa2cd291ca78942f3919607953009.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 202000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 404.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 202000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 404.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 375.0,
+    "recoverable_s": 375.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11254608--5b85e30dabe4569bdab960a444905572.bdf",
+    "size": 11255376,
+    "sha256": "a2d684b680477f28bcb01e8e5cd5a6720940807f924c01932593bee4ecb631e9",
+    "annex_key": "SHA256E-s11255376--a2d684b680477f28bcb01e8e5cd5a6720940807f924c01932593bee4ecb631e9.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 187500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 375.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 187500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 375.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 371.0,
+    "recoverable_s": 371.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11134608--3e2e14cf1c2a91253b776da4b3445943.bdf",
+    "size": 11135376,
+    "sha256": "da7a456d102aa13b8b87f4c0ec1e0d1c78ab1414c9af23aa96b99e6c4172f388",
+    "annex_key": "SHA256E-s11135376--da7a456d102aa13b8b87f4c0ec1e0d1c78ab1414c9af23aa96b99e6c4172f388.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 371.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 371.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 392.0,
+    "recoverable_s": 392.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11764608--ca2fe8ab9ae37b15d8156f6c2fe79634.bdf",
+    "size": 11765376,
+    "sha256": "fcf60080a23f681ae5532914f56a2d764c93ed01f31872e097d4fee9aec3f97d",
+    "annex_key": "SHA256E-s11765376--fcf60080a23f681ae5532914f56a2d764c93ed01f31872e097d4fee9aec3f97d.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 196000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 392.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 196000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 392.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 506.0,
+    "recoverable_s": 506.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s15184608--e600db6ecc0051bf317c2081c95ef497.bdf",
+    "size": 15185376,
+    "sha256": "cf8cc71b052bf88cbe1a48db8275e08b0ad76d148e72e266fb06eed9f47d8606",
+    "annex_key": "SHA256E-s15185376--cf8cc71b052bf88cbe1a48db8275e08b0ad76d148e72e266fb06eed9f47d8606.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 253000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 506.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 253000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 506.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 368.0,
+    "recoverable_s": 368.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11044608--516fe4a9378c925dec15e5a9f1aaa806.bdf",
+    "size": 11045376,
+    "sha256": "053c66e2433671009ff788df3c77cfa609f968e88eaf03a3c516c26729e52056",
+    "annex_key": "SHA256E-s11045376--053c66e2433671009ff788df3c77cfa609f968e88eaf03a3c516c26729e52056.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 184000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 368.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 184000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 368.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 384.0,
+    "recoverable_s": 384.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11524608--e861d5e90a263b25f7b0e582285e33ed.bdf",
+    "size": 11525376,
+    "sha256": "89dd3237fc26713dac3c12e2ccf47f27a3e3e016cea8ef6db34bce0fa877e043",
+    "annex_key": "SHA256E-s11525376--89dd3237fc26713dac3c12e2ccf47f27a3e3e016cea8ef6db34bce0fa877e043.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 192000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 384.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 192000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 384.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 375.0,
+    "recoverable_s": 375.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11254608--845534bbbfb991eb8a00334dc281c785.bdf",
+    "size": 11255376,
+    "sha256": "767ebce5fad86bdbb850d3014a044dee7a9eb6b6e5c96355ff84c2b7565f0fbc",
+    "annex_key": "SHA256E-s11255376--767ebce5fad86bdbb850d3014a044dee7a9eb6b6e5c96355ff84c2b7565f0fbc.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 187500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 375.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 187500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 375.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 388.0,
+    "recoverable_s": 388.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11644608--10500dd99408b5ab7308feb4ec42dc52.bdf",
+    "size": 11645376,
+    "sha256": "dea7c470b5a3d78f365dc4f8158cd12b59bb817ecef382ce7b1a64d447fcf9a4",
+    "annex_key": "SHA256E-s11645376--dea7c470b5a3d78f365dc4f8158cd12b59bb817ecef382ce7b1a64d447fcf9a4.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 194000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 388.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 194000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 388.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 384.0,
+    "recoverable_s": 384.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11524608--177b52f8d7da7c3fdd75529cb91d5f65.bdf",
+    "size": 11525376,
+    "sha256": "dbb251c25ebe39416bc87f46435a6737b248d246390829eeb799876ae10268fe",
+    "annex_key": "SHA256E-s11525376--dbb251c25ebe39416bc87f46435a6737b248d246390829eeb799876ae10268fe.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 192000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 384.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 192000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 384.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 370.0,
+    "recoverable_s": 370.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11104608--bce655ea8b9780fe4d21f125750a1249.bdf",
+    "size": 11105376,
+    "sha256": "334f31219dab7d7ada623d33396a345e080d956bc7e21497d314ae3e2dbae9b2",
+    "annex_key": "SHA256E-s11105376--334f31219dab7d7ada623d33396a345e080d956bc7e21497d314ae3e2dbae9b2.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 389.0,
+    "recoverable_s": 389.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11674608--4a221b3d16ad095fd3c08d852558de49.bdf",
+    "size": 11675376,
+    "sha256": "7aac9dfaccd5e2df55fcc63bb585f384189a857266a7cf4f7941b17816935305",
+    "annex_key": "SHA256E-s11675376--7aac9dfaccd5e2df55fcc63bb585f384189a857266a7cf4f7941b17816935305.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 194500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 389.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 194500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 389.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 376.0,
+    "recoverable_s": 376.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11284608--ee899233fa9562df4beddaee60a512ac.bdf",
+    "size": 11285376,
+    "sha256": "bb7d4dabff4dfb92947c69a2c02fd752f69bdee2fc1ac683981e39b27aa28795",
+    "annex_key": "SHA256E-s11285376--bb7d4dabff4dfb92947c69a2c02fd752f69bdee2fc1ac683981e39b27aa28795.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 188000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 376.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 188000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 376.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 370.0,
+    "recoverable_s": 370.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11104608--e81bbe26d4fc779918060fd74f36c62b.bdf",
+    "size": 11105376,
+    "sha256": "83acba3724ffa4fe355e4aafd43da6b3e73943253561333607c310df3a1d33f8",
+    "annex_key": "SHA256E-s11105376--83acba3724ffa4fe355e4aafd43da6b3e73943253561333607c310df3a1d33f8.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 378.0,
+    "recoverable_s": 378.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11344608--8e2e63525462179ff229e2341ff5f2bd.bdf",
+    "size": 11345376,
+    "sha256": "c776bf9252a670989576678bebe0ee88db7cb4d5bf3b6a0ceca3d5a49f75fea1",
+    "annex_key": "SHA256E-s11345376--c776bf9252a670989576678bebe0ee88db7cb4d5bf3b6a0ceca3d5a49f75fea1.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 189000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 378.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 189000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 378.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 367.0,
+    "recoverable_s": 367.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11014608--579f0379283ae7ae41b41c87cff5daf4.bdf",
+    "size": 11015376,
+    "sha256": "29e1a4890df60264e073dc156e4d73bb69929db514815be1da98efe2f2a47a71",
+    "annex_key": "SHA256E-s11015376--29e1a4890df60264e073dc156e4d73bb69929db514815be1da98efe2f2a47a71.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 183500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 367.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 183500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 367.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 374.0,
+    "recoverable_s": 374.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11224608--4bf63892aa3c52d3934c52a431446db4.bdf",
+    "size": 11225376,
+    "sha256": "61f3f128aca8e339dc49299684d6ddb38b50870d551a3702223e588d120fe6d4",
+    "annex_key": "SHA256E-s11225376--61f3f128aca8e339dc49299684d6ddb38b50870d551a3702223e588d120fe6d4.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 187000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 374.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 187000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 374.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 370.0,
+    "recoverable_s": 370.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11104608--9b093d418dfe817054773caa01a44640.bdf",
+    "size": 11105376,
+    "sha256": "695831b2bdf80a6a04a58ea6bbb8dbbe9c7b0d68a6bb09b4619aba57b531073b",
+    "annex_key": "SHA256E-s11105376--695831b2bdf80a6a04a58ea6bbb8dbbe9c7b0d68a6bb09b4619aba57b531073b.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 367.0,
+    "recoverable_s": 367.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11014608--ae5cfadc3d0f63db6c38c10cda37a337.bdf",
+    "size": 11015376,
+    "sha256": "00b4efa64278ef3e55d18c1b884fcdc014179b570ed4fdbcc5a5f733fd4ae4e9",
+    "annex_key": "SHA256E-s11015376--00b4efa64278ef3e55d18c1b884fcdc014179b570ed4fdbcc5a5f733fd4ae4e9.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 183500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 367.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 183500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 367.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 373.0,
+    "recoverable_s": 373.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11194608--4105d7e186db20ae7498cc4501bb3f80.bdf",
+    "size": 11195376,
+    "sha256": "2efd851b427a11d2c59f1e201817c40729c3f5f7d61d18e05130930d8a55bb5f",
+    "annex_key": "SHA256E-s11195376--2efd851b427a11d2c59f1e201817c40729c3f5f7d61d18e05130930d8a55bb5f.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 186500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 373.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 186500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 373.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 370.0,
+    "recoverable_s": 370.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11104608--c7d299b4a63e5f79c199e8be10d44b1f.bdf",
+    "size": 11105376,
+    "sha256": "51924bc9c4d664fee5d334a08c56c4dfdbb01ced8ddf32e1d766af61c0c39660",
+    "annex_key": "SHA256E-s11105376--51924bc9c4d664fee5d334a08c56c4dfdbb01ced8ddf32e1d766af61c0c39660.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 528.0,
+    "recoverable_s": 528.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s15844608--aace1e8892e9a6005aac1bdd31939855.bdf",
+    "size": 15845376,
+    "sha256": "5dbaeb30d2ab1f0f35a2776dc8f4b45e1cd0d81af6c6d8afe40b52be4231afa4",
+    "annex_key": "SHA256E-s15845376--5dbaeb30d2ab1f0f35a2776dc8f4b45e1cd0d81af6c6d8afe40b52be4231afa4.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 264000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 528.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 264000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 528.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 381.0,
+    "recoverable_s": 381.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11434608--55ccedca5471aa6898f7e3ceb5e0df91.bdf",
+    "size": 11435376,
+    "sha256": "5cb4fe6964dfff449373f9cb0cb173e72b0b9d9579f5c2cb352d7acb042a0931",
+    "annex_key": "SHA256E-s11435376--5cb4fe6964dfff449373f9cb0cb173e72b0b9d9579f5c2cb352d7acb042a0931.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 190500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 381.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 190500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 381.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 380.0,
+    "recoverable_s": 380.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11404608--145a74023f4b61ec232e649c2bc32ee3.bdf",
+    "size": 11405376,
+    "sha256": "583b2827b4ece499cc1788a66bf15cb8552652f0833f80c13cfaf19d2a2edba8",
+    "annex_key": "SHA256E-s11405376--583b2827b4ece499cc1788a66bf15cb8552652f0833f80c13cfaf19d2a2edba8.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 190000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 380.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 190000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 380.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 377.0,
+    "recoverable_s": 377.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11314608--04fe52aec816f2d8c781692d668c722c.bdf",
+    "size": 11315376,
+    "sha256": "88026c7d30ca74ed5ad9aea49249c332db9d876e89d3f282a62440bc241de6dd",
+    "annex_key": "SHA256E-s11315376--88026c7d30ca74ed5ad9aea49249c332db9d876e89d3f282a62440bc241de6dd.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 188500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 377.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 188500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 377.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 367.0,
+    "recoverable_s": 367.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11014608--483b18374367ba2f707abc942a913645.bdf",
+    "size": 11015376,
+    "sha256": "994f88c180422ec169203750289909d81fd7ba8401bea199396a755eac3eaa0d",
+    "annex_key": "SHA256E-s11015376--994f88c180422ec169203750289909d81fd7ba8401bea199396a755eac3eaa0d.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 183500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 367.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 183500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 367.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 374.0,
+    "recoverable_s": 374.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11224608--9d467c47192c99bb640ea37f16ea9c4f.bdf",
+    "size": 11225376,
+    "sha256": "80d2a26b5eb59e5c325519e8fc518d9075a2016332629f2c2526b13aaf3c9b8d",
+    "annex_key": "SHA256E-s11225376--80d2a26b5eb59e5c325519e8fc518d9075a2016332629f2c2526b13aaf3c9b8d.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 187000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 374.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 187000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 374.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 382.0,
+    "recoverable_s": 382.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11464608--3f4e7480812f04002dfb0a82c5c7820a.bdf",
+    "size": 11465376,
+    "sha256": "ce07bb99e2bbe25590b2a12df939ce2bd5884805f4e95f9e11e24b55c6dec5fb",
+    "annex_key": "SHA256E-s11465376--ce07bb99e2bbe25590b2a12df939ce2bd5884805f4e95f9e11e24b55c6dec5fb.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 191000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 382.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 191000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 382.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 380.0,
+    "recoverable_s": 380.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11404608--1d8ede0e0ff5bc22f3916cae3429fa71.bdf",
+    "size": 11405376,
+    "sha256": "def81e320e02e0d5a062dcd5dc3da0f8921b2065bc4a6f6e787812d1fda3c213",
+    "annex_key": "SHA256E-s11405376--def81e320e02e0d5a062dcd5dc3da0f8921b2065bc4a6f6e787812d1fda3c213.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 190000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 380.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 190000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 380.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 374.0,
+    "recoverable_s": 374.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11224608--686f80fcb7685e1ca5e87f227bcce0b6.bdf",
+    "size": 11225376,
+    "sha256": "a6256a129944933714714c4cc48c564cc023dbef267a74fb6fb7efb5fcc8f816",
+    "annex_key": "SHA256E-s11225376--a6256a129944933714714c4cc48c564cc023dbef267a74fb6fb7efb5fcc8f816.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 187000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 374.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 187000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 374.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 366.0,
+    "recoverable_s": 366.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s10984608--bdbb557c80b37a68eccb142886d3137c.bdf",
+    "size": 10985376,
+    "sha256": "1b7b97831522110687f8ffbaefc53c9b74204746987b7e1242667244a6454111",
+    "annex_key": "SHA256E-s10985376--1b7b97831522110687f8ffbaefc53c9b74204746987b7e1242667244a6454111.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 183000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 366.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 183000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 366.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 370.0,
+    "recoverable_s": 370.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11104608--791859005a5cb462a7e69426bf077b7b.bdf",
+    "size": 11105376,
+    "sha256": "1f86b85b7a1df98940cffd247dbc7b03b5d02dec5caec60bf11f99fc466fba28",
+    "annex_key": "SHA256E-s11105376--1f86b85b7a1df98940cffd247dbc7b03b5d02dec5caec60bf11f99fc466fba28.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 370.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 375.0,
+    "recoverable_s": 375.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11254608--165186b578b6a6c429cd1518f05e923e.bdf",
+    "size": 11255376,
+    "sha256": "2a1157411fd8a72ca9e4c1efc2483f7c05e51b2d96ceef51a4711b68f3ec5e48",
+    "annex_key": "SHA256E-s11255376--2a1157411fd8a72ca9e4c1efc2483f7c05e51b2d96ceef51a4711b68f3ec5e48.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 187500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 375.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 187500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 375.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 371.0,
+    "recoverable_s": 371.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11134608--02c9bdb329dbb83a93138b0990541e7b.bdf",
+    "size": 11135376,
+    "sha256": "6aaadd2ec30b47d2e9bb3624b6d1844cc8592384f6302f7a83be0c9d4a14e694",
+    "annex_key": "SHA256E-s11135376--6aaadd2ec30b47d2e9bb3624b6d1844cc8592384f6302f7a83be0c9d4a14e694.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 185500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 371.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 185500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 371.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 392.0,
+    "recoverable_s": 392.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11764608--08dbaf4dee27bcd6a04d97a8cb6740f7.bdf",
+    "size": 11765376,
+    "sha256": "56f764efcc26543d38ef45b45408d3f17fd52843927687369bf165833eedeffd",
+    "annex_key": "SHA256E-s11765376--56f764efcc26543d38ef45b45408d3f17fd52843927687369bf165833eedeffd.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 196000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 392.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 196000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 392.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 385.0,
+    "recoverable_s": 385.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11554608--140d76dd0201b2683933b6c06c526bac.bdf",
+    "size": 11555376,
+    "sha256": "2a65c65c591ac1a38eba9e079dec4fa52352c2bb9e02fa089c0979977f0742f7",
+    "annex_key": "SHA256E-s11555376--2a65c65c591ac1a38eba9e079dec4fa52352c2bb9e02fa089c0979977f0742f7.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 192500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 385.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 192500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 385.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 388.0,
+    "recoverable_s": 388.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11644352--9c2823154ecbe46f721cbe2116436453.bdf",
+    "size": 11645376,
+    "sha256": "c3f914c6d3993c8ac4d2b5b50cf38530f75f77c618571cd59617e015c6c0a627",
+    "annex_key": "SHA256E-s11645376--c3f914c6d3993c8ac4d2b5b50cf38530f75f77c618571cd59617e015c6c0a627.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 194000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 388.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 194000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 388.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 395.0,
+    "recoverable_s": 395.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11854352--913725737ae2bd3dab8dbf4f1d6daf4e.bdf",
+    "size": 11855376,
+    "sha256": "d46514a462f86529c619df5ce762641f65def6408df65e2d2b835835bb96e1ea",
+    "annex_key": "SHA256E-s11855376--d46514a462f86529c619df5ce762641f65def6408df65e2d2b835835bb96e1ea.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 197500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 395.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 197500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 395.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 393.0,
+    "recoverable_s": 393.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11794352--a7d623be9e1281ee8b16c74e56eec8a5.bdf",
+    "size": 11795376,
+    "sha256": "374e76f0595119632b7b747ff94cd20ca75b9aca80284897114c959983843108",
+    "annex_key": "SHA256E-s11795376--374e76f0595119632b7b747ff94cd20ca75b9aca80284897114c959983843108.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 196500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 393.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 196500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 393.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 399.0,
+    "recoverable_s": 399.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11974352--e35ee875cb5ca0cc39855e6b4d9ec189.bdf",
+    "size": 11975376,
+    "sha256": "d82788f0c8e61920e216caddca736420ab2344919313f4b70e3efe6de3859b49",
+    "annex_key": "SHA256E-s11975376--d82788f0c8e61920e216caddca736420ab2344919313f4b70e3efe6de3859b49.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 199500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 399.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 199500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 399.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 397.0,
+    "recoverable_s": 397.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11914352--a489c5151777740634a477155d7c797e.bdf",
+    "size": 11915376,
+    "sha256": "d3359cf3e4dd43277fe1a5b01f6a96075e45db9ffebe4f0d2eb3d0de86ba3c0b",
+    "annex_key": "SHA256E-s11915376--d3359cf3e4dd43277fe1a5b01f6a96075e45db9ffebe4f0d2eb3d0de86ba3c0b.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 198500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 397.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 198500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 397.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 395.0,
+    "recoverable_s": 395.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11854352--aa4fab0871e29ebd302e525d3249f8c0.bdf",
+    "size": 11855376,
+    "sha256": "c395dade155369bea6e17f52216d69ab45e0d0456f3e1ae8422f7be57d1977bd",
+    "annex_key": "SHA256E-s11855376--c395dade155369bea6e17f52216d69ab45e0d0456f3e1ae8422f7be57d1977bd.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 197500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 395.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 197500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 395.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 398.0,
+    "recoverable_s": 398.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11944352--df406eb855dded307f7523327d03254a.bdf",
+    "size": 11945376,
+    "sha256": "ee8c05eebd5c10ba4cff98f0f4fadb082480b82f5c99c6eefa7cba0e52e26a14",
+    "annex_key": "SHA256E-s11945376--ee8c05eebd5c10ba4cff98f0f4fadb082480b82f5c99c6eefa7cba0e52e26a14.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 199000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 398.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 199000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 398.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 397.0,
+    "recoverable_s": 397.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11914352--2c6b414acf1e8c2892f88f11cdc1a0ed.bdf",
+    "size": 11915376,
+    "sha256": "032e46ff399e01defe65b9d332fc45cef90251c43563cb7fc2fa6ab08519d7af",
+    "annex_key": "SHA256E-s11915376--032e46ff399e01defe65b9d332fc45cef90251c43563cb7fc2fa6ab08519d7af.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 198500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 397.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 198500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 397.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 404.0,
+    "recoverable_s": 404.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12124352--3ae8a925ba68b7577e0ce38510120081.bdf",
+    "size": 12125376,
+    "sha256": "c7cbb6e813e6f0f2b4e914657aff67d011f5ca9238bf3b5ed5ac5d9a9d1d5080",
+    "annex_key": "SHA256E-s12125376--c7cbb6e813e6f0f2b4e914657aff67d011f5ca9238bf3b5ed5ac5d9a9d1d5080.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 202000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 404.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 202000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 404.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 400.0,
+    "recoverable_s": 400.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12004352--f3ca0babb7a1b7d8ea642b095ba562c6.bdf",
+    "size": 12005376,
+    "sha256": "d1a87b680a5ecb50d0ec2ebdec4dc45abdce5d06c3e5d3e7973c8b8f3e6e85d3",
+    "annex_key": "SHA256E-s12005376--d1a87b680a5ecb50d0ec2ebdec4dc45abdce5d06c3e5d3e7973c8b8f3e6e85d3.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 200000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 400.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 200000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 400.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 406.0,
+    "recoverable_s": 406.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12184352--bf9d36ca2abb9ad5adf3c305e2ffc936.bdf",
+    "size": 12185376,
+    "sha256": "b854f8b8f4371efb5ff6f3872c482d316fb06dd90b364d3b5fe65e03e6a46c51",
+    "annex_key": "SHA256E-s12185376--b854f8b8f4371efb5ff6f3872c482d316fb06dd90b364d3b5fe65e03e6a46c51.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 203000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 406.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 203000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 406.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 406.0,
+    "recoverable_s": 406.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12184352--36c62541ec574c7440d0e071ab12f300.bdf",
+    "size": 12185376,
+    "sha256": "3d6f5f096120124030047069a447df215c3c946fcd5b0855bee123fdafcb1fa3",
+    "annex_key": "SHA256E-s12185376--3d6f5f096120124030047069a447df215c3c946fcd5b0855bee123fdafcb1fa3.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 203000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 406.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 203000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 406.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 396.0,
+    "recoverable_s": 396.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11884352--a276fdfedb4231f6f7248be8e0708e0b.bdf",
+    "size": 11885376,
+    "sha256": "5a591a34b72f43f280391b77402c333e4a47f52034257122203d726b44a2ad7a",
+    "annex_key": "SHA256E-s11885376--5a591a34b72f43f280391b77402c333e4a47f52034257122203d726b44a2ad7a.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 198000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 396.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 198000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 396.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 398.0,
+    "recoverable_s": 398.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11944352--804632c84db5912e21f294eaf824e85d.bdf",
+    "size": 11945376,
+    "sha256": "71ae6249d7010222a675e5702d51c2c4f456a6127bc4665d53d62e2f854f7119",
+    "annex_key": "SHA256E-s11945376--71ae6249d7010222a675e5702d51c2c4f456a6127bc4665d53d62e2f854f7119.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 199000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 398.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 199000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 398.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 393.0,
+    "recoverable_s": 393.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11794352--4984262217043f2a8466916b6027daba.bdf",
+    "size": 11795376,
+    "sha256": "dc292ff9f6fe2fa10c07d390da779b3e7a4943291dd70ce66dc7126ed7371c52",
+    "annex_key": "SHA256E-s11795376--dc292ff9f6fe2fa10c07d390da779b3e7a4943291dd70ce66dc7126ed7371c52.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 196500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 393.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 196500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 393.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 550.0,
+    "recoverable_s": 550.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s16504352--af1a52368392372b4bcc335af107e372.bdf",
+    "size": 16505376,
+    "sha256": "6c7fa1f99f0d2bd36c9e00b3f6b01e06f8562ef0cd921cfaef04e61e3559df7b",
+    "annex_key": "SHA256E-s16505376--6c7fa1f99f0d2bd36c9e00b3f6b01e06f8562ef0cd921cfaef04e61e3559df7b.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 275000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 550.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 275000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 550.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 403.0,
+    "recoverable_s": 403.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12094352--19261dd49c5d41d8d30786094eb65bb2.bdf",
+    "size": 12095376,
+    "sha256": "22a4347919d6420353a8988bedd3d8c81a346b8e25854a047052ff7c42b5a59b",
+    "annex_key": "SHA256E-s12095376--22a4347919d6420353a8988bedd3d8c81a346b8e25854a047052ff7c42b5a59b.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 201500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 403.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 201500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 403.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 403.0,
+    "recoverable_s": 403.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12094352--1a82c4d3264f83bf965b1aa9d9e42f7b.bdf",
+    "size": 12095376,
+    "sha256": "ad30cc9bc53743ca01a1a0cbc5fe64d63af5d16ecd89d2385d083f6147ac04da",
+    "annex_key": "SHA256E-s12095376--ad30cc9bc53743ca01a1a0cbc5fe64d63af5d16ecd89d2385d083f6147ac04da.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 201500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 403.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 201500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 403.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 404.0,
+    "recoverable_s": 404.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12124352--a6615c94f0a9b1061c1483838a6bacf6.bdf",
+    "size": 12125376,
+    "sha256": "0628057ac60ae90f458e0bc5339f25359975c983d981a9f36fe69c7ac3666920",
+    "annex_key": "SHA256E-s12125376--0628057ac60ae90f458e0bc5339f25359975c983d981a9f36fe69c7ac3666920.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 202000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 404.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 202000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 404.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 401.0,
+    "recoverable_s": 401.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12034352--1cddc92f3cb82ed608051ffb97aeac5a.bdf",
+    "size": 12035376,
+    "sha256": "a6bdcfab83e12c5f1388360371d84d82a80e7de2adca9c05c1f4f8206d0176ef",
+    "annex_key": "SHA256E-s12035376--a6bdcfab83e12c5f1388360371d84d82a80e7de2adca9c05c1f4f8206d0176ef.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 200500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 401.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 200500,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 401.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 400.0,
+    "recoverable_s": 400.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 342 samples (0.684 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s12004352--3afb5e24effef6a395531026f59b5cda.bdf",
+    "size": 12005376,
+    "sha256": "8b88602b3a702689f92f50a558a158802ce72152914ddb41c88c2c457a8c136d",
+    "annex_key": "SHA256E-s12005376--8b88602b3a702689f92f50a558a158802ce72152914ddb41c88c2c457a8c136d.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 342,
+    "bad_duration_s": 0.684,
+    "original_header_field": 4352,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 200000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 400.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 200000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 400.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.684,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  },
+  {
+    "group": "G1_bdf_header_overlap",
+    "dataset": "on003343",
+    "rel": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.bdf",
+    "cls": "PARTIAL",
+    "tier": "C deposit fix",
+    "declared_s": 388.0,
+    "recoverable_s": 388.0,
+    "how": "rewrite header (5376 B) + data from the field's offset; no MNE option",
+    "lost": "first 256 samples (0.512 s) of channel 1 (Fz) in record 1 are header text",
+    "twin": false,
+    "original_annex_key": "MD5E-s11644608--651b81101c2dc060f45ef5515b094f45.bdf",
+    "size": 11645376,
+    "sha256": "aa279657a16a8318755a3c4e2e979907c772094b3c35a8b47ff8732077cac982",
+    "annex_key": "SHA256E-s11645376--aa279657a16a8318755a3c4e2e979907c772094b3c35a8b47ff8732077cac982.bdf",
+    "staged_path": "/expanse/lustre/projects/sdp190/bpinto/fix-staging/on003343/sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.bdf",
+    "lost_samples": 256,
+    "bad_duration_s": 0.512,
+    "original_header_field": 4608,
+    "signal_bytes_unchanged": true,
+    "verification": {
+      "dataset": "on003343",
+      "rel": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.bdf",
+      "hostname": "exp-13-16",
+      "slurm_job": "55073833",
+      "mne": "1.13.2",
+      "mne_bids_version": "0.20.0",
+      "mne_bids": {
+        "ok": true,
+        "n_times": 194000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 388.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      },
+      "eegdash_local": {
+        "ok": true,
+        "n_times": 194000,
+        "sfreq": 500.0,
+        "nchan": 20,
+        "seconds": 388.0,
+        "first_last_finite": true,
+        "bad": [
+          [
+            0.0,
+            0.512,
+            "BAD_Fz_header_overlap"
+          ]
+        ],
+        "warnings": []
+      }
+    }
+  }
+]

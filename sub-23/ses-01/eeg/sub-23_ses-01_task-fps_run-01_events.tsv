@@ -1,145 +1,146 @@
-onset	duration	event_value	event_name
-2327	500	62	sham_start
-2729	1000	70	sham_peak
-4339	500	82	illusion_start
-4741	1000	90	illusion_peak
-6853	500	82	illusion_start
-7256	1000	90	illusion_peak
-8865	500	82	illusion_start
-9267	1000	90	illusion_peak
-11882	500	62	sham_start
-12285	1000	70	sham_peak
-14397	500	62	sham_start
-14799	1000	70	sham_peak
-17415	500	62	sham_start
-17817	1000	70	sham_peak
-19929	500	82	illusion_start
-20331	1000	90	illusion_peak
-22444	500	62	sham_start
-22846	1000	70	sham_peak
-24455	500	62	sham_start
-24858	1000	70	sham_peak
-27473	500	82	illusion_start
-27875	1000	90	illusion_peak
-30490	500	82	illusion_start
-30893	1000	90	illusion_peak
-32502	500	82	illusion_start
-32904	1000	90	illusion_peak
-35520	500	82	illusion_start
-35922	1000	90	illusion_peak
-38034	500	62	sham_start
-38436	1000	70	sham_peak
-40046	500	82	illusion_start
-40448	1000	90	illusion_peak
-42057	500	62	sham_start
-42460	1000	70	sham_peak
-45075	500	62	sham_start
-45477	1000	70	sham_peak
-47590	500	82	illusion_start
-47992	1000	90	illusion_peak
-50104	500	62	sham_start
-50507	1000	70	sham_peak
-52116	500	82	illusion_start
-52518	1000	90	illusion_peak
-54128	500	62	sham_start
-54530	1000	70	sham_peak
-56642	500	62	sham_start
-57044	1000	70	sham_peak
-59660	500	82	illusion_start
-60062	1000	90	illusion_peak
-62677	500	62	sham_start
-63079	1000	70	sham_peak
-65695	500	82	illusion_start
-66097	1000	90	illusion_peak
-67706	500	82	illusion_start
-68109	1000	90	illusion_peak
-70221	500	82	illusion_start
-70623	1000	90	illusion_peak
-73238	500	62	sham_start
-73641	1000	70	sham_peak
-75753	500	62	sham_start
-76155	1000	70	sham_peak
-77765	500	62	sham_start
-78167	1000	70	sham_peak
-79776	500	82	illusion_start
-80179	1000	90	illusion_peak
-82794	500	62	sham_start
-83196	1000	70	sham_peak
-85308	500	82	illusion_start
-85711	1000	90	illusion_peak
-87320	500	82	illusion_start
-87722	1000	90	illusion_peak
-89835	500	62	sham_start
-90237	1000	70	sham_peak
-92852	500	82	illusion_start
-93255	1000	90	illusion_peak
-95367	500	62	sham_start
-95769	1000	70	sham_peak
-97378	500	82	illusion_start
-97781	1000	90	illusion_peak
-100396	500	62	sham_start
-100798	1000	70	sham_peak
-103413	500	62	sham_start
-103816	1000	70	sham_peak
-105928	500	82	illusion_start
-106330	1000	90	illusion_peak
-107940	500	82	illusion_start
-108342	1000	90	illusion_peak
-110957	500	82	illusion_start
-111360	1000	90	illusion_peak
-113472	500	62	sham_start
-113874	1000	70	sham_peak
-115483	500	62	sham_start
-115886	1000	70	sham_peak
-118501	500	62	sham_start
-118903	1000	70	sham_peak
-121016	500	82	illusion_start
-121418	1000	90	illusion_peak
-123027	500	82	illusion_start
-123430	1000	90	illusion_peak
-125039	500	82	illusion_start
-125441	1000	90	illusion_peak
-128056	500	62	sham_start
-128459	1000	70	sham_peak
-131074	500	82	illusion_start
-131476	1000	90	illusion_peak
-133588	500	62	sham_start
-133991	1000	70	sham_peak
-135600	500	62	sham_start
-136002	1000	70	sham_peak
-138115	500	82	illusion_start
-138517	1000	90	illusion_peak
-141132	500	82	illusion_start
-141535	1000	90	illusion_peak
-143144	500	82	illusion_start
-143546	1000	90	illusion_peak
-145659	500	62	sham_start
-146061	1000	70	sham_peak
-147670	500	62	sham_start
-148073	1000	70	sham_peak
-150688	500	62	sham_start
-151090	1000	70	sham_peak
-153202	500	62	sham_start
-153605	1000	70	sham_peak
-155717	500	82	illusion_start
-156119	1000	90	illusion_peak
-158231	500	62	sham_start
-158634	1000	70	sham_peak
-160243	500	82	illusion_start
-160645	1000	90	illusion_peak
-162255	500	82	illusion_start
-162657	1000	90	illusion_peak
-165272	500	62	sham_start
-165675	1000	70	sham_peak
-168290	500	62	sham_start
-168692	1000	70	sham_peak
-170301	500	62	sham_start
-170704	1000	70	sham_peak
-172816	500	82	illusion_start
-173218	1000	90	illusion_peak
-175834	500	82	illusion_start
-176236	1000	90	illusion_peak
-178348	500	82	illusion_start
-178750	1000	90	illusion_peak
-180360	500	62	sham_start
-180762	1000	70	sham_peak
+onset	duration	event_value	event_name	trial_type	channel	integrity_note	integrity_interval_units
+0	0.512	n/a	BAD_Fz_header_overlap	BAD_Fz_header_overlap	Fz	First 256 Fz samples were overwritten by header bytes in the source deposit; not reconstructed. Other channels intact.	s
+2327	500	62	sham_start	sham_start	n/a	n/a	n/a
+2729	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+4339	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+4741	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+6853	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+7256	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+8865	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+9267	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+11882	500	62	sham_start	sham_start	n/a	n/a	n/a
+12285	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+14397	500	62	sham_start	sham_start	n/a	n/a	n/a
+14799	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+17415	500	62	sham_start	sham_start	n/a	n/a	n/a
+17817	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+19929	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+20331	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+22444	500	62	sham_start	sham_start	n/a	n/a	n/a
+22846	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+24455	500	62	sham_start	sham_start	n/a	n/a	n/a
+24858	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+27473	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+27875	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+30490	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+30893	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+32502	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+32904	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+35520	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+35922	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+38034	500	62	sham_start	sham_start	n/a	n/a	n/a
+38436	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+40046	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+40448	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+42057	500	62	sham_start	sham_start	n/a	n/a	n/a
+42460	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+45075	500	62	sham_start	sham_start	n/a	n/a	n/a
+45477	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+47590	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+47992	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+50104	500	62	sham_start	sham_start	n/a	n/a	n/a
+50507	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+52116	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+52518	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+54128	500	62	sham_start	sham_start	n/a	n/a	n/a
+54530	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+56642	500	62	sham_start	sham_start	n/a	n/a	n/a
+57044	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+59660	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+60062	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+62677	500	62	sham_start	sham_start	n/a	n/a	n/a
+63079	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+65695	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+66097	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+67706	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+68109	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+70221	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+70623	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+73238	500	62	sham_start	sham_start	n/a	n/a	n/a
+73641	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+75753	500	62	sham_start	sham_start	n/a	n/a	n/a
+76155	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+77765	500	62	sham_start	sham_start	n/a	n/a	n/a
+78167	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+79776	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+80179	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+82794	500	62	sham_start	sham_start	n/a	n/a	n/a
+83196	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+85308	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+85711	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+87320	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+87722	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+89835	500	62	sham_start	sham_start	n/a	n/a	n/a
+90237	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+92852	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+93255	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+95367	500	62	sham_start	sham_start	n/a	n/a	n/a
+95769	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+97378	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+97781	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+100396	500	62	sham_start	sham_start	n/a	n/a	n/a
+100798	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+103413	500	62	sham_start	sham_start	n/a	n/a	n/a
+103816	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+105928	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+106330	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+107940	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+108342	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+110957	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+111360	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+113472	500	62	sham_start	sham_start	n/a	n/a	n/a
+113874	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+115483	500	62	sham_start	sham_start	n/a	n/a	n/a
+115886	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+118501	500	62	sham_start	sham_start	n/a	n/a	n/a
+118903	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+121016	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+121418	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+123027	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+123430	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+125039	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+125441	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+128056	500	62	sham_start	sham_start	n/a	n/a	n/a
+128459	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+131074	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+131476	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+133588	500	62	sham_start	sham_start	n/a	n/a	n/a
+133991	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+135600	500	62	sham_start	sham_start	n/a	n/a	n/a
+136002	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+138115	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+138517	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+141132	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+141535	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+143144	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+143546	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+145659	500	62	sham_start	sham_start	n/a	n/a	n/a
+146061	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+147670	500	62	sham_start	sham_start	n/a	n/a	n/a
+148073	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+150688	500	62	sham_start	sham_start	n/a	n/a	n/a
+151090	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+153202	500	62	sham_start	sham_start	n/a	n/a	n/a
+153605	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+155717	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+156119	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+158231	500	62	sham_start	sham_start	n/a	n/a	n/a
+158634	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+160243	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+160645	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+162255	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+162657	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+165272	500	62	sham_start	sham_start	n/a	n/a	n/a
+165675	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+168290	500	62	sham_start	sham_start	n/a	n/a	n/a
+168692	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+170301	500	62	sham_start	sham_start	n/a	n/a	n/a
+170704	1000	70	sham_peak	sham_peak	n/a	n/a	n/a
+172816	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+173218	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+175834	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+176236	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+178348	500	82	illusion_start	illusion_start	n/a	n/a	n/a
+178750	1000	90	illusion_peak	illusion_peak	n/a	n/a	n/a
+180360	500	62	sham_start	sham_start	n/a	n/a	n/a
+180762	1000	70	sham_peak	sham_peak	n/a	n/a	n/a

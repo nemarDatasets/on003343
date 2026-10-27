@@ -1,3 +1,13 @@
+1.0.3 2026-10-27
+  - NEMAR dataset_description.json Version 1.0.2 -> 1.0.3; no tag, release or publication request.
+  - Correct header size/alignment in 59 BDF files. Preserve every source payload byte; no replacement samples, interpolation or zero padding.
+  - Mark unrecoverable first 256 or 342 Fz samples (0.512 or 0.684 seconds at 500 Hz) as BAD_Fz_header_overlap in events.tsv with channel Fz. Original event rows/times are unchanged. integrity_interval_units explicitly identifies the added BAD duration as seconds; the original trigger onset column is documented by the source as samples.
+  - Add trial_type (copied from each original event_name, plus the BAD label), channel, integrity_note and
+    integrity_interval_units columns; add their descriptions to the matching events.json sidecars.
+    Original event columns/values are retained. These documentation additions do not resolve the
+    separately disclosed source timing-unit ambiguity.
+  - Repaired binary payloads are annex-ready on Expanse only; new SHA256E keys/sizes and two-reader proof are recorded in code/fix-20261019-manifest.json.
+
 2.0.1 2021-05-05
   - Updated Readme information on participants
 2.0.0 2021-05-05
